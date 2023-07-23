@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="16" total="30" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-23T12:31:23Z" name="Suite" finished-at="2023-07-23T12:31:33Z" duration-ms="9811">
+    <groups>
+      <group name="regression">
+        <method signature="GitHubDeleteTest.DeleteInValidOwnerValidRepoToken()[pri:0, instance:tests.GitHubDeleteTest@563f38c4]" name="DeleteInValidOwnerValidRepoToken" class="tests.GitHubDeleteTest"/>
+        <method signature="GitHubDeleteTest.DeleteValidOwnerInValidRepoNoScopeToken()[pri:0, instance:tests.GitHubDeleteTest@563f38c4]" name="DeleteValidOwnerInValidRepoNoScopeToken" class="tests.GitHubDeleteTest"/>
+        <method signature="GitHubDeleteTest.DeleteValidOwnerInValidRepoNoToken()[pri:0, instance:tests.GitHubDeleteTest@563f38c4]" name="DeleteValidOwnerInValidRepoNoToken" class="tests.GitHubDeleteTest"/>
+        <method signature="GitHubListOrgReposTest.listOrgInvalidOrgName()[pri:0, instance:tests.GitHubListOrgReposTest@235ecd9f]" name="listOrgInvalidOrgName" class="tests.GitHubListOrgReposTest"/>
+        <method signature="GitHubListOrgReposTest.listOrgPerPageReposValid()[pri:0, instance:tests.GitHubListOrgReposTest@235ecd9f]" name="listOrgPerPageReposValid" class="tests.GitHubListOrgReposTest"/>
+        <method signature="GitHubListOrgReposTest.listOrgPrivateRepoNoToken()[pri:0, instance:tests.GitHubListOrgReposTest@235ecd9f]" name="listOrgPrivateRepoNoToken" class="tests.GitHubListOrgReposTest"/>
+        <method signature="GitHubPostTest.PostInValidOrgNameNoScopeTokenValidBodyPrivate()[pri:8, instance:tests.GitHubPostTest@1ca3b418]" name="PostInValidOrgNameNoScopeTokenValidBodyPrivate" class="tests.GitHubPostTest"/>
+        <method signature="GitHubPostTest.PostInValidOrgNameValidTokenBody()[pri:3, instance:tests.GitHubPostTest@1ca3b418]" name="PostInValidOrgNameValidTokenBody" class="tests.GitHubPostTest"/>
+        <method signature="GitHubPostTest.PostValidOrgNameNoTokenBodyPrivate()[pri:6, instance:tests.GitHubPostTest@1ca3b418]" name="PostValidOrgNameNoTokenBodyPrivate" class="tests.GitHubPostTest"/>
+        <method signature="GitHubPostTest.PostValidOrgNameNoTokenInvalidBody()[pri:5, instance:tests.GitHubPostTest@1ca3b418]" name="PostValidOrgNameNoTokenInvalidBody" class="tests.GitHubPostTest"/>
+        <method signature="GitHubPostTest.PostValidOrgNameTokenInvalidBody()[pri:4, instance:tests.GitHubPostTest@1ca3b418]" name="PostValidOrgNameTokenInvalidBody" class="tests.GitHubPostTest"/>
+        <method signature="GitHubUpdateTest.PatchInValidOwnerValidRepoToken()[pri:0, instance:tests.GitHubUpdateTest@58cbafc2]" name="PatchInValidOwnerValidRepoToken" class="tests.GitHubUpdateTest"/>
+        <method signature="GitHubUpdateTest.PatchValidOwnerInValidRepoNoScopeToken()[pri:0, instance:tests.GitHubUpdateTest@58cbafc2]" name="PatchValidOwnerInValidRepoNoScopeToken" class="tests.GitHubUpdateTest"/>
+        <method signature="GitHubUpdateTest.PatchValidOwnerInValidRepoNoToken()[pri:0, instance:tests.GitHubUpdateTest@58cbafc2]" name="PatchValidOwnerInValidRepoNoToken" class="tests.GitHubUpdateTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2023-07-23T12:31:23Z" name="Test" finished-at="2023-07-23T12:31:33Z" duration-ms="9811">
+      <class name="tests.GitHubListOrgReposTest">
+        <test-method is-config="true" signature="preMethodCondition(java.lang.reflect.Method)[pri:0, instance:tests.GitHubListOrgReposTest@235ecd9f]" started-at="2023-07-23T18:01:27Z" name="preMethodCondition" finished-at="2023-07-23T18:01:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GitHubListOrgReposTest.listOrgInvalidOrgName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preMethodCondition -->
+        <test-method signature="listOrgInvalidOrgName()[pri:0, instance:tests.GitHubListOrgReposTest@235ecd9f]" started-at="2023-07-23T18:01:27Z" name="listOrgInvalidOrgName" finished-at="2023-07-23T18:01:28Z" duration-ms="1573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listOrgInvalidOrgName -->
+        <test-method is-config="true" signature="MethodpostCondition(org.testng.ITestResult)[pri:0, instance:tests.GitHubListOrgReposTest@235ecd9f]" started-at="2023-07-23T18:01:28Z" name="MethodpostCondition" finished-at="2023-07-23T18:01:28Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=listOrgInvalidOrgName status=SUCCESS method=GitHubListOrgReposTest.listOrgInvalidOrgName()[pri:0, instance:tests.GitHubListOrgReposTest@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodpostCondition -->
+        <test-method signature="listOrgPerPageReposValid()[pri:0, instance:tests.GitHubListOrgReposTest@235ecd9f]" started-at="2023-07-23T18:01:28Z" name="listOrgPerPageReposValid" finished-at="2023-07-23T18:01:29Z" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listOrgPerPageReposValid -->
+        <test-method is-config="true" signature="preMethodCondition(java.lang.reflect.Method)[pri:0, instance:tests.GitHubListOrgReposTest@235ecd9f]" started-at="2023-07-23T18:01:28Z" name="preMethodCondition" finished-at="2023-07-23T18:01:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GitHubListOrgReposTest.listOrgPerPageReposValid()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preMethodCondition -->
+        <test-method is-config="true" signature="MethodpostCondition(org.testng.ITestResult)[pri:0, instance:tests.GitHubListOrgReposTest@235ecd9f]" started-at="2023-07-23T18:01:29Z" name="MethodpostCondition" finished-at="2023-07-23T18:01:29Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=listOrgPerPageReposValid status=SUCCESS method=GitHubListOrgReposTest.listOrgPerPageReposValid()[pri:0, instance:tests.GitHubListOrgReposTest@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodpostCondition -->
+        <test-method is-config="true" signature="preMethodCondition(java.lang.reflect.Method)[pri:0, instance:tests.GitHubListOrgReposTest@235ecd9f]" started-at="2023-07-23T18:01:29Z" name="preMethodCondition" finished-at="2023-07-23T18:01:29Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GitHubListOrgReposTest.listOrgPrivateRepoNoToken()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preMethodCondition -->
+        <test-method signature="listOrgPrivateRepoNoToken()[pri:0, instance:tests.GitHubListOrgReposTest@235ecd9f]" started-at="2023-07-23T18:01:29Z" name="listOrgPrivateRepoNoToken" finished-at="2023-07-23T18:01:29Z" duration-ms="661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listOrgPrivateRepoNoToken -->
+        <test-method is-config="true" signature="MethodpostCondition(org.testng.ITestResult)[pri:0, instance:tests.GitHubListOrgReposTest@235ecd9f]" started-at="2023-07-23T18:01:29Z" name="MethodpostCondition" finished-at="2023-07-23T18:01:29Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=listOrgPrivateRepoNoToken status=SUCCESS method=GitHubListOrgReposTest.listOrgPrivateRepoNoToken()[pri:0, instance:tests.GitHubListOrgReposTest@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodpostCondition -->
+      </class> <!-- tests.GitHubListOrgReposTest -->
+      <class name="tests.GitHubPostTest">
+        <test-method is-config="true" signature="preMethodCondition(java.lang.reflect.Method)[pri:0, instance:tests.GitHubPostTest@1ca3b418]" started-at="2023-07-23T18:01:31Z" name="preMethodCondition" finished-at="2023-07-23T18:01:31Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GitHubPostTest.PostInValidOrgNameValidTokenBody() throws java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preMethodCondition -->
+        <test-method signature="PostInValidOrgNameValidTokenBody()[pri:3, instance:tests.GitHubPostTest@1ca3b418]" started-at="2023-07-23T18:01:31Z" name="PostInValidOrgNameValidTokenBody" finished-at="2023-07-23T18:01:31Z" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostInValidOrgNameValidTokenBody -->
+        <test-method is-config="true" signature="MethodpostCondition(org.testng.ITestResult)[pri:0, instance:tests.GitHubPostTest@1ca3b418]" started-at="2023-07-23T18:01:31Z" name="MethodpostCondition" finished-at="2023-07-23T18:01:31Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PostInValidOrgNameValidTokenBody status=SUCCESS method=GitHubPostTest.PostInValidOrgNameValidTokenBody()[pri:3, instance:tests.GitHubPostTest@1ca3b418] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodpostCondition -->
+        <test-method is-config="true" signature="preMethodCondition(java.lang.reflect.Method)[pri:0, instance:tests.GitHubPostTest@1ca3b418]" started-at="2023-07-23T18:01:31Z" name="preMethodCondition" finished-at="2023-07-23T18:01:31Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GitHubPostTest.PostValidOrgNameTokenInvalidBody() throws java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preMethodCondition -->
+        <test-method signature="PostValidOrgNameTokenInvalidBody()[pri:4, instance:tests.GitHubPostTest@1ca3b418]" started-at="2023-07-23T18:01:31Z" name="PostValidOrgNameTokenInvalidBody" finished-at="2023-07-23T18:01:32Z" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostValidOrgNameTokenInvalidBody -->
+        <test-method is-config="true" signature="MethodpostCondition(org.testng.ITestResult)[pri:0, instance:tests.GitHubPostTest@1ca3b418]" started-at="2023-07-23T18:01:32Z" name="MethodpostCondition" finished-at="2023-07-23T18:01:32Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PostValidOrgNameTokenInvalidBody status=SUCCESS method=GitHubPostTest.PostValidOrgNameTokenInvalidBody()[pri:4, instance:tests.GitHubPostTest@1ca3b418] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodpostCondition -->
+        <test-method is-config="true" signature="preMethodCondition(java.lang.reflect.Method)[pri:0, instance:tests.GitHubPostTest@1ca3b418]" started-at="2023-07-23T18:01:32Z" name="preMethodCondition" finished-at="2023-07-23T18:01:32Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GitHubPostTest.PostValidOrgNameNoTokenInvalidBody() throws java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preMethodCondition -->
+        <test-method signature="PostValidOrgNameNoTokenInvalidBody()[pri:5, instance:tests.GitHubPostTest@1ca3b418]" started-at="2023-07-23T18:01:32Z" name="PostValidOrgNameNoTokenInvalidBody" finished-at="2023-07-23T18:01:32Z" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostValidOrgNameNoTokenInvalidBody -->
+        <test-method is-config="true" signature="MethodpostCondition(org.testng.ITestResult)[pri:0, instance:tests.GitHubPostTest@1ca3b418]" started-at="2023-07-23T18:01:32Z" name="MethodpostCondition" finished-at="2023-07-23T18:01:32Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PostValidOrgNameNoTokenInvalidBody status=SUCCESS method=GitHubPostTest.PostValidOrgNameNoTokenInvalidBody()[pri:5, instance:tests.GitHubPostTest@1ca3b418] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodpostCondition -->
+        <test-method is-config="true" signature="preMethodCondition(java.lang.reflect.Method)[pri:0, instance:tests.GitHubPostTest@1ca3b418]" started-at="2023-07-23T18:01:32Z" name="preMethodCondition" finished-at="2023-07-23T18:01:32Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GitHubPostTest.PostValidOrgNameNoTokenBodyPrivate() throws java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preMethodCondition -->
+        <test-method signature="PostValidOrgNameNoTokenBodyPrivate()[pri:6, instance:tests.GitHubPostTest@1ca3b418]" started-at="2023-07-23T18:01:32Z" name="PostValidOrgNameNoTokenBodyPrivate" finished-at="2023-07-23T18:01:33Z" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostValidOrgNameNoTokenBodyPrivate -->
+        <test-method is-config="true" signature="MethodpostCondition(org.testng.ITestResult)[pri:0, instance:tests.GitHubPostTest@1ca3b418]" started-at="2023-07-23T18:01:33Z" name="MethodpostCondition" finished-at="2023-07-23T18:01:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PostValidOrgNameNoTokenBodyPrivate status=SUCCESS method=GitHubPostTest.PostValidOrgNameNoTokenBodyPrivate()[pri:6, instance:tests.GitHubPostTest@1ca3b418] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodpostCondition -->
+        <test-method is-config="true" signature="preMethodCondition(java.lang.reflect.Method)[pri:0, instance:tests.GitHubPostTest@1ca3b418]" started-at="2023-07-23T18:01:33Z" name="preMethodCondition" finished-at="2023-07-23T18:01:33Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GitHubPostTest.PostInValidOrgNameNoScopeTokenValidBodyPrivate() throws java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preMethodCondition -->
+        <test-method signature="PostInValidOrgNameNoScopeTokenValidBodyPrivate()[pri:8, instance:tests.GitHubPostTest@1ca3b418]" started-at="2023-07-23T18:01:33Z" name="PostInValidOrgNameNoScopeTokenValidBodyPrivate" finished-at="2023-07-23T18:01:33Z" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostInValidOrgNameNoScopeTokenValidBodyPrivate -->
+        <test-method is-config="true" signature="MethodpostCondition(org.testng.ITestResult)[pri:0, instance:tests.GitHubPostTest@1ca3b418]" started-at="2023-07-23T18:01:33Z" name="MethodpostCondition" finished-at="2023-07-23T18:01:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PostInValidOrgNameNoScopeTokenValidBodyPrivate status=SUCCESS method=GitHubPostTest.PostInValidOrgNameNoScopeTokenValidBodyPrivate()[pri:8, instance:tests.GitHubPostTest@1ca3b418] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodpostCondition -->
+      </class> <!-- tests.GitHubPostTest -->
+      <class name="tests.GitHubUpdateTest">
+        <test-method is-config="true" signature="preMethodCondition(java.lang.reflect.Method)[pri:0, instance:tests.GitHubUpdateTest@58cbafc2]" started-at="2023-07-23T18:01:29Z" name="preMethodCondition" finished-at="2023-07-23T18:01:29Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GitHubUpdateTest.PatchInValidOwnerValidRepoToken()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preMethodCondition -->
+        <test-method signature="PatchInValidOwnerValidRepoToken()[pri:0, instance:tests.GitHubUpdateTest@58cbafc2]" started-at="2023-07-23T18:01:29Z" name="PatchInValidOwnerValidRepoToken" finished-at="2023-07-23T18:01:30Z" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PatchInValidOwnerValidRepoToken -->
+        <test-method is-config="true" signature="MethodpostCondition(org.testng.ITestResult)[pri:0, instance:tests.GitHubUpdateTest@58cbafc2]" started-at="2023-07-23T18:01:30Z" name="MethodpostCondition" finished-at="2023-07-23T18:01:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PatchInValidOwnerValidRepoToken status=SUCCESS method=GitHubUpdateTest.PatchInValidOwnerValidRepoToken()[pri:0, instance:tests.GitHubUpdateTest@58cbafc2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodpostCondition -->
+        <test-method is-config="true" signature="preMethodCondition(java.lang.reflect.Method)[pri:0, instance:tests.GitHubUpdateTest@58cbafc2]" started-at="2023-07-23T18:01:30Z" name="preMethodCondition" finished-at="2023-07-23T18:01:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GitHubUpdateTest.PatchValidOwnerInValidRepoNoScopeToken() throws java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preMethodCondition -->
+        <test-method signature="PatchValidOwnerInValidRepoNoScopeToken()[pri:0, instance:tests.GitHubUpdateTest@58cbafc2]" started-at="2023-07-23T18:01:30Z" name="PatchValidOwnerInValidRepoNoScopeToken" finished-at="2023-07-23T18:01:30Z" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PatchValidOwnerInValidRepoNoScopeToken -->
+        <test-method is-config="true" signature="MethodpostCondition(org.testng.ITestResult)[pri:0, instance:tests.GitHubUpdateTest@58cbafc2]" started-at="2023-07-23T18:01:30Z" name="MethodpostCondition" finished-at="2023-07-23T18:01:30Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PatchValidOwnerInValidRepoNoScopeToken status=SUCCESS method=GitHubUpdateTest.PatchValidOwnerInValidRepoNoScopeToken()[pri:0, instance:tests.GitHubUpdateTest@58cbafc2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodpostCondition -->
+        <test-method is-config="true" signature="preMethodCondition(java.lang.reflect.Method)[pri:0, instance:tests.GitHubUpdateTest@58cbafc2]" started-at="2023-07-23T18:01:30Z" name="preMethodCondition" finished-at="2023-07-23T18:01:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GitHubUpdateTest.PatchValidOwnerInValidRepoNoToken() throws java.io.FileNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preMethodCondition -->
+        <test-method signature="PatchValidOwnerInValidRepoNoToken()[pri:0, instance:tests.GitHubUpdateTest@58cbafc2]" started-at="2023-07-23T18:01:30Z" name="PatchValidOwnerInValidRepoNoToken" finished-at="2023-07-23T18:01:31Z" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PatchValidOwnerInValidRepoNoToken -->
+        <test-method is-config="true" signature="MethodpostCondition(org.testng.ITestResult)[pri:0, instance:tests.GitHubUpdateTest@58cbafc2]" started-at="2023-07-23T18:01:31Z" name="MethodpostCondition" finished-at="2023-07-23T18:01:31Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PatchValidOwnerInValidRepoNoToken status=SUCCESS method=GitHubUpdateTest.PatchValidOwnerInValidRepoNoToken()[pri:0, instance:tests.GitHubUpdateTest@58cbafc2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodpostCondition -->
+      </class> <!-- tests.GitHubUpdateTest -->
+      <class name="tests.GitHubDeleteTest">
+        <test-method is-config="true" signature="suitePreCondition()[pri:0, instance:tests.GitHubDeleteTest@563f38c4]" started-at="2023-07-23T18:01:22Z" name="suitePreCondition" finished-at="2023-07-23T18:01:23Z" duration-ms="1511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitePreCondition -->
+        <test-method is-config="true" signature="preMethodCondition(java.lang.reflect.Method)[pri:0, instance:tests.GitHubDeleteTest@563f38c4]" started-at="2023-07-23T18:01:23Z" name="preMethodCondition" finished-at="2023-07-23T18:01:23Z" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GitHubDeleteTest.DeleteInValidOwnerValidRepoToken()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preMethodCondition -->
+        <test-method signature="DeleteInValidOwnerValidRepoToken()[pri:0, instance:tests.GitHubDeleteTest@563f38c4]" started-at="2023-07-23T18:01:23Z" name="DeleteInValidOwnerValidRepoToken" finished-at="2023-07-23T18:01:26Z" duration-ms="2134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteInValidOwnerValidRepoToken -->
+        <test-method is-config="true" signature="MethodpostCondition(org.testng.ITestResult)[pri:0, instance:tests.GitHubDeleteTest@563f38c4]" started-at="2023-07-23T18:01:26Z" name="MethodpostCondition" finished-at="2023-07-23T18:01:26Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteInValidOwnerValidRepoToken status=SUCCESS method=GitHubDeleteTest.DeleteInValidOwnerValidRepoToken()[pri:0, instance:tests.GitHubDeleteTest@563f38c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodpostCondition -->
+        <test-method signature="DeleteValidOwnerInValidRepoNoScopeToken()[pri:0, instance:tests.GitHubDeleteTest@563f38c4]" started-at="2023-07-23T18:01:26Z" name="DeleteValidOwnerInValidRepoNoScopeToken" finished-at="2023-07-23T18:01:26Z" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteValidOwnerInValidRepoNoScopeToken -->
+        <test-method is-config="true" signature="preMethodCondition(java.lang.reflect.Method)[pri:0, instance:tests.GitHubDeleteTest@563f38c4]" started-at="2023-07-23T18:01:26Z" name="preMethodCondition" finished-at="2023-07-23T18:01:26Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GitHubDeleteTest.DeleteValidOwnerInValidRepoNoScopeToken()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preMethodCondition -->
+        <test-method is-config="true" signature="MethodpostCondition(org.testng.ITestResult)[pri:0, instance:tests.GitHubDeleteTest@563f38c4]" started-at="2023-07-23T18:01:26Z" name="MethodpostCondition" finished-at="2023-07-23T18:01:26Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteValidOwnerInValidRepoNoScopeToken status=SUCCESS method=GitHubDeleteTest.DeleteValidOwnerInValidRepoNoScopeToken()[pri:0, instance:tests.GitHubDeleteTest@563f38c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodpostCondition -->
+        <test-method signature="DeleteValidOwnerInValidRepoNoToken()[pri:0, instance:tests.GitHubDeleteTest@563f38c4]" started-at="2023-07-23T18:01:26Z" name="DeleteValidOwnerInValidRepoNoToken" finished-at="2023-07-23T18:01:27Z" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteValidOwnerInValidRepoNoToken -->
+        <test-method is-config="true" signature="preMethodCondition(java.lang.reflect.Method)[pri:0, instance:tests.GitHubDeleteTest@563f38c4]" started-at="2023-07-23T18:01:26Z" name="preMethodCondition" finished-at="2023-07-23T18:01:26Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GitHubDeleteTest.DeleteValidOwnerInValidRepoNoToken()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preMethodCondition -->
+        <test-method is-config="true" signature="MethodpostCondition(org.testng.ITestResult)[pri:0, instance:tests.GitHubDeleteTest@563f38c4]" started-at="2023-07-23T18:01:27Z" name="MethodpostCondition" finished-at="2023-07-23T18:01:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteValidOwnerInValidRepoNoToken status=SUCCESS method=GitHubDeleteTest.DeleteValidOwnerInValidRepoNoToken()[pri:0, instance:tests.GitHubDeleteTest@563f38c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodpostCondition -->
+        <test-method is-config="true" signature="suitePostCondition()[pri:0, instance:tests.GitHubDeleteTest@563f38c4]" started-at="2023-07-23T18:01:33Z" name="suitePostCondition" finished-at="2023-07-23T18:01:34Z" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitePostCondition -->
+      </class> <!-- tests.GitHubDeleteTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
